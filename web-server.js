@@ -15,13 +15,13 @@ const adder = (x, y) => {
     return x + y;
 }
 
-app.get('/adder', (req, res) => {
-    let x = parseInt(req.query.x);
-    let y = parseInt(req.query.y);
+// app.get('/adder', (req, res) => {
+//     let x = parseInt(req.query.x);
+//     let y = parseInt(req.query.y);
 
-    result = adder(x, y);
+//     result = adder(x, y);
 
-    res.send(`Result =  ${result}`);
-})
+//     res.send(`Result =  ${result}`);
+// })
 
 app.listen(PORT, () => log(`Server is running on port ${PORT}`))

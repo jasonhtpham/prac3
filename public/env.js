@@ -13,7 +13,7 @@ $(document).ready(function() {
         }
 
         //return result to the user
-        $.get("/adder", numbers, function(data) {
+        $.get("http://localhost:4000/adder", numbers, function(data) {
             console.log('Data has returned: '+data)
             $('#result').val(data)
         })
