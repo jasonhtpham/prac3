@@ -1,0 +1,25 @@
+{
+  "name": "prac3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js --exec babel-node -e js",
+    "debug": "set DEBUG=express:* & nodemon ./app.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonhtpham/prac3.git"
+  },
+  "author": "Jason Pham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonhtpham/prac3/issues"
+  },
+  "homepage": "https://github.com/jasonhtpham/prac3#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "nodemon": "^2.0.4"
+  }
+}
